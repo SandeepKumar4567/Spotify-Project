@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    column-gap: 10px;
+}
+
+.logo h1 {
+    font-weight: lighter;
+}
+
+.logo img {
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+}
+
+.logo img:hover {
+    transform: rotateY(360deg);
+}
+
+
+.logincontainer{
+    display: flex;
+    justify-content: center;
+}
+.loginsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+
+}
+.loginsection input{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: greenyellow;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.loginsection input:hover{
+    box-shadow: 8px 8px 8px rgb(70, 70, 70);
+}
+.loginsection button{
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.loginsection button:hover{
+box-shadow: 5px 5px 5px greenyellow;
+color: greenyellow;
+transform: rotateX(360deg);
+}
+
+.loginsection label{
+    font-weight: 600;
+}
+
+.loginsection a{
+    text-decoration: none;
+}
